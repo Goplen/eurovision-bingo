@@ -8,7 +8,7 @@ const Header: React.FC = () => {
             <div className="header">
                 <div className="header-content">
                     <div className="header-content">
-                        <a className="name-role" href={"/"}>
+                        <a className="name-role" href="https://www.goplen.dev/">
                             <div className="name">
                                 <h1>MARCUS GOPLEN</h1>
                             </div>
