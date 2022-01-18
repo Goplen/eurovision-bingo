@@ -1,49 +1,57 @@
-
-.box {
+.cards {
     margin: auto;
-    padding: 24px;
+    padding: 10px;
     background-color: rgba(255,255,255, .3);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
-}
-.square {
-    height: 70%;
-    width: 70%;
-    padding: 10%;
-    margin: 10%;
-    text-align: center;
-}
-
-.board {
-    max-width: 600px;
-    margin: auto;
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.bingo-card {
     display: flex;
     flex-wrap: wrap;
-    width: 350px;
 }
 
-.bingoSquare {
-    width: 65px;
-    height: 65px;
-}
-
-.row {
+.mgp-cards {
     display: flex;
-    flex-direction: row;
-    margin: auto;
+    flex-wrap: wrap;
 }
 
-.number-square .h3 {
-    margin-top: 0;
+.square {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
-.square p {
-    font-size: 8px;
-    margin-bottom: -12px;
+@media screen and (max-width: 1000px) {
+    .cards {
+        width: 350px;
+    }
+    .mgp-cards {
+        width: 350px;
+    }
+    .square {
+        height: 50px;
+        width: 50px;
+        padding: 4px;
+        margin: 6px;
+    }
+    .square p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .cards {
+        width: 700px;
+    }
+    .mgp-cards {
+        width: 700px;
+    }
+    .square {
+        height: 100px;
+        width: 100px;
+        padding: 8px;
+        margin: 12px;
+    }
+    .square p {
+        font-size: 16px;
+    }
 }
