@@ -20,7 +20,7 @@ const Header: React.FC = () => {
                             <div
                                 className="navigation-item one"
                             >
-                                <h1>CREATE NEW CARDS</h1>
+                                <h1>SHUFFLE AND RESET</h1>
                             </div>
                         </div>
                     </div>
